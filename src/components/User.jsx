@@ -1,7 +1,7 @@
-function User({ name, handle }) {
+function User({ user }) {
   return (
     <span className="user">
-      <span className="name">{name}</span>
+      <span className="name">{user}</span>
       <span className="handle">@{handle}</span>
     </span>
   );
